@@ -2,6 +2,10 @@
 
 Desktop app for updating the firmware on Mazduino ECUs, Racedash dashes and the CAN IO Extender.
 
+> **Alpha.** Mazduino Flasher is still being tested, and only the macOS build is out. Disconnect
+> the 12V supply before writing to an ECU, and report anything odd so it can be fixed before the
+> first full release.
+
 This repository holds the releases and the changelog. The source code is not public.
 
 ## Download
@@ -11,12 +15,12 @@ Get the latest build from [Releases](https://github.com/mazduino/mazduino-flashe
 
 - macOS 12 or newer, on an Apple Silicon Mac (M1 or later). Intel Macs are not supported yet.
 - Nothing else to install. Everything the app needs to write firmware is inside it.
-- Windows build: coming later.
+- Windows build: in progress, coming in a later alpha.
 
 ### Opening it the first time
 
 1. Unzip the download and move **Mazduino Flasher** to the Applications folder.
-2. Open it. Builds are not notarised by Apple yet, so macOS says it cannot check the app.
+2. Open it. Alpha builds are not notarised by Apple yet, so macOS says it cannot check the app.
    Click **Done**, then go to **System Settings › Privacy & Security** and click **Open Anyway**
    next to Mazduino Flasher.
 3. Check that the file came from this repository's Releases page. Each release lists its SHA-256.

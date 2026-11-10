@@ -1,10 +1,10 @@
 # Changelog
 
-Versions follow `major.minor.patch`.
+Versions follow `major.minor.patch`; `-alpha.N` and `-beta.N` are test builds.
 
-## 1.0.0 — 2026-11-11
+## 0.1.0-alpha.1 — 2026-11-11
 
-First public build, for macOS on Apple Silicon.
+First public test build, for macOS on Apple Silicon. Windows follows in a later alpha.
 
 ### Mazduino ECU
 - Finds the ECU on USB, reads which board it is and writes a published release for it, or your own `.bin` / `.hex`
