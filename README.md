@@ -35,9 +35,11 @@ Get the latest build from [Releases](https://github.com/mazduino/mazduino-flashe
 - An ECU that is already in update mode is picked up as it is
 
 **Racedash**
-- Pick the dash by model, then update it over the USB cable or over the dash's own WiFi
+- Plug the dash in, or join its WiFi: the model and hardware revision are read from the dash
+  itself, so the right firmware is chosen for it
 - **Update firmware** keeps the dash's settings. **Full flash** (USB only) writes everything and
   erases the settings.
+- A new or erased dash gets a Full flash, with only the models built for its hardware to choose from
 - Firmware for dashes comes from your Mazduino account, so sign in first
 
 **CAN IO Extender**

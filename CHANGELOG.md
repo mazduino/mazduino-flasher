@@ -2,6 +2,16 @@
 
 Versions follow `major.minor.patch`; `-alpha.N` and `-beta.N` are test builds.
 
+## 0.1.0-alpha.2 — 2026-11-13
+
+### Racedash
+- The dash is read as soon as it is plugged in: its model comes from the firmware on it, so there is no model to pick and no way to pick the wrong one
+- The M7 Pro's hardware revision is read from the dash too, and the matching firmware is chosen for it. It is no longer a choice
+- A dash with no Mazduino firmware on it (new, erased, or running something else) is handled as a new dash: only the models built for its hardware are offered, and only a Full flash
+- Over WiFi the dash is asked which model it is. A dash that does not say is updated over USB instead
+- **Not this model?** treats a dash that was flashed with another model's firmware as a new dash
+- The dash tab now starts with the connection, then shows what was found
+
 ## 0.1.0-alpha.1 — 2026-11-11
 
 First public test build, for macOS on Apple Silicon. Windows follows in a later alpha.
